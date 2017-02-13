@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Xamarinform_demo.Views.Main">
+  <StackLayout>
+    <Label Text="{Binding MainText}" TextColor="White" VerticalOptions="Center" HorizontalOptions="Center" />
+    <Label Text="Xin Chao" TextColor="Red"></Label>
+    <Entry Text="{Binding HoTen}" TextColor="White"></Entry>
+  </StackLayout>
+  
+</ContentPage>
