@@ -24,7 +24,7 @@ namespace Android_demo1
             btnTest = FindViewById<Button>(Resource.Id.btnTest);
             btnDetail = FindViewById<Button>(Resource.Id.btnDetail);
             btnTest.Click += myButtonClick;
-            btnDetail.Click += myDetailClick;
+            btnDetail.Click += myDetailClick; 
 
         }
 
