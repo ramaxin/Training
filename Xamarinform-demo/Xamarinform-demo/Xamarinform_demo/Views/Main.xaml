@@ -6,6 +6,7 @@
     <Label Text="{Binding MainText}" TextColor="White" VerticalOptions="Center" HorizontalOptions="Center" />
     <Label Text="Xin Chao" TextColor="Red"></Label>
     <Entry Text="{Binding HoTen}" TextColor="White"></Entry>
+    <Button Command="{Binding CommandTest}" Text="Button"></Button>
   </StackLayout>
   
 </ContentPage>

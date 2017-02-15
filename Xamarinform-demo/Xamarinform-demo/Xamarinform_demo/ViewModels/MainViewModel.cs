@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using MvvmHelpers;
+using Xamarin.Forms;
 
 namespace Xamarinform_demo.ViewModels
 {
@@ -11,6 +12,7 @@ namespace Xamarinform_demo.ViewModels
     {
         private string _maintext;
         private string _hoten;
+        public Command CommandTest { get; set; }
 
         public string HoTen
         {
@@ -43,11 +45,18 @@ namespace Xamarinform_demo.ViewModels
         public void Thaydoi()
         {
             MainText = HoTen;
+            
+        }
+
+        private void LoadTest()
+        {
+            throw new NotImplementedException();
         }
 
         public MainViewModel()
         {
             MainText = "Hello VNPT Long An";
+            CommandTest = new Command(LoadTest);
         }
     }
 }
